@@ -15,7 +15,7 @@ export const Login = (props) => {
       <div className="auth-form">
         <h1>Log in</h1>
         <p>
-          Don't have {" "}
+          Don't have an account?{" "}
           <button
             className="btn link-btn"
             onClick={() => props.onFormSwitch("SignGeneral")}
